@@ -1,0 +1,41 @@
+.hero {
+  background: linear-gradient(to bottom, #E0E0E0, #000000);
+  background: url("/assets/letter-knife.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  gap: 20px;
+  color: white;
+  background: rgb(39, 37, 37);
+  padding: 100px;
+  opacity: 0.5;
+}
+
+.hero-content__title {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 72px;
+}
+
+.hero-content__description{
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+
+}
+
+.hero-content__button {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
