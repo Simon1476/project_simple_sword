@@ -1,0 +1,25 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  background-color: black;
+  color: white;
+}
+
+.header__nav .header__logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.header__list ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 18px;
+  padding-right: 24px;
+}
+
+.header__list ul li a {
+  color: #fff;
+}
