@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 24px;
+
+  color: white;
+  background: #000;
+  font-weight: 700;
+}
+
+.footer-list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer p {
+  font-size: 24px;
+}
+
+.footer-list li a i {
+  font-size: 24px;
+  color: white;
+}

@@ -1,0 +1,15 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 12, 12);
+}
+
+.quote p {
+  
+  font-size: 36px;
+  padding: 50px 100px;
+  color: white;
+
+  text-transform: uppercase;
+}

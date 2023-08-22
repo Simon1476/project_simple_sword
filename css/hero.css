@@ -2,6 +2,7 @@
   background: linear-gradient(to bottom, #E0E0E0, #000000);
   background: url("/assets/letter-knife.jpg") no-repeat center;
   background-size: cover;
+  padding-top: 100px;
 }
 
 .hero-content {

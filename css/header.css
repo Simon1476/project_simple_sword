@@ -2,9 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
   padding: 24px 0;
+
   background-color: black;
   color: white;
+  text-transform: uppercase;
+  z-index: 1;
 }
 
 .header__nav .header__logo img {
